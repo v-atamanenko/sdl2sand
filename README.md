@@ -8,7 +8,7 @@ SDL2Sand is based on [sdlsand](http://sourceforge.net/projects/sdlsand) by T.R. 
 Controls
 -----------------
 
-<img align="right" src="img/screenshot-1.png" width="50%">
+<img align="right" src="img/screenshot-1.png" width="36%">
 
 
 | Button            | Action                                 |
