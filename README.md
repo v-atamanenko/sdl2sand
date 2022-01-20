@@ -1,4 +1,4 @@
-SDL Sand
+SDL2Sand
 -----------------
 The aim of this program is to simulate different particles (such as sand, water, oil or fire) interacting with each other.
 Freedom is given to the player to experiment with the different materials in a sandbox environment.
@@ -52,32 +52,31 @@ Group 4:
 
 The authors
 ----------------
-Thomas René Sidor (Studying computer science at the university of Copenhagen, Denmark) (Personal homepage: http://www.mcbyte.dk)
+Thomas RenÃˆ Sidor (Studying computer science at the university of Copenhagen, Denmark) ([Personal homepage](http://www.mcbyte.dk))
 Kristian Jensen (Studying computer science at Roskilde University, Denmark)
-Artur Rojek - GCW Zero port
+Artur Rojek: GCW Zero port
+Volodymyr Atamanenko: SDL2 and PS Vita port 
 
 Acknowledgements
 ----------------
-CCmdLine - command line parser by Chris Losinger (http://www.codeproject.com/cpp/ccmdline.asp)
-SDL - Simple DirectMedia Library (http://www.libsdl.org)
+[SDL](http://www.libsdl.org) - Simple DirectMedia Library
+[CCmdLine](http://www.codeproject.com/cpp/ccmdline.asp) - command line parser by Chris Losinger
 
 Origins
 -----------------
 The SDL Sand game (The Falling SDL-Sand Game) is a C++ implementation of the original 'World of
-Sand' (and later 'Hell of Sand') game implemented in JAVA. SDL Sand uses the SDL (Simple DirectMedia
-Library - http://www.libsdl.org/) library for screen output. Therefore the implementation can
-possibly run on every platform supported by SDL.
+Sand' (and later 'Hell of Sand') game implemented in JAVA. SDL Sand uses the SDL library for
+screen output. Therefore the implementation can possibly run on every platform supported by SDL.
 
 The aim is to create a faster implementation of the game and possibly extend its features.
 
 Links
 -----------------
-Project link: http://sourceforge.net/projects/sdlsand
-The originial World of Sand from DOFI-BLOG (http://ishi.blog2.fc2.com/blog-entry-158.html)
-The later version - Hell of Sand from DOFI-BLOG (http://ishi.blog2.fc2.com/blog-entry-164.html)
-A Falling Sand Game forum (http://www.fallingsandgame.com/)
-Falling Sand Game hosted (http://chir.ag/stuff/sand/)
+[sdlsand SourceForge](http://sourceforge.net/projects/sdlsand)
+[SDLSand: GCW Zero port](https://github.com/zear/SDLSand)
+[The original World of Sand from DOFI-BLOG](http://ishi.blog2.fc2.com/blog-entry-158.html)
+[The later version - Hell of Sand from DOFI-BLOG](http://ishi.blog2.fc2.com/blog-entry-164.html)
 
 License
 -----------------
-SDL Sand is released under GPLv2 license. See included LICENSE file for details.
+SDL2Sand is released under GPLv2 license. See included LICENSE file for details.
