@@ -1,6 +1,8 @@
 SDL2Sand
 -----------------
 
+<img align="right" src="img/screenshot-1.png" width="36%">
+
 SDL2Sand is another implementation of the now-classic Falling Sand Game, old-school and minimalistic. The game simulates different particles (such as sand, water, oil or fire) interacting with each other. Freedom is given to the player to experiment with different materials in a sandbox environment.
 
 SDL2Sand is based on [sdlsand](http://sourceforge.net/projects/sdlsand) by T.R. Sidor and K. Jensen. While—for now—the core gameplay stayed exactly the same, the game was ported to SDL2 and optimized to run on PlayStation Vita with better looks and performances. In the future, more gameplay elements and code refactoring/optimization work is expected.
@@ -8,7 +10,6 @@ SDL2Sand is based on [sdlsand](http://sourceforge.net/projects/sdlsand) by T.R. 
 Controls
 -----------------
 
-<img align="right" src="img/screenshot-1.png" width="36%">
 
 
 | Button            | Action                                 |
