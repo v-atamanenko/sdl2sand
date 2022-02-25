@@ -22,12 +22,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#include "SDL.h"
-
-#include "CmdLine.h"
 #include <cstdio>
 #include <cstdlib>
 #include <ctime>
+#include "SDL.h"
+
+#include "CmdLine.h"
+
+#ifdef __vita__
+#include <psp2/power.h>
+#endif
 
 #define FASTRAND_MAX 32767
 static unsigned int g_seed;
@@ -1425,6 +1429,9 @@ void drawPenSize()
 
 int main(int argc, char **argv)
 {
+#ifdef __vita__
+    scePowerSetArmClockFrequency(444);
+#endif
 
     CCmdLine cmdLine;
 

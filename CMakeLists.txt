@@ -31,6 +31,7 @@ if (BUILDTARGET STREQUAL "vita")
   find_package(SDL2 REQUIRED)
   target_link_libraries(${PROJECT_NAME}
     SDL2::SDL2-static
+    ScePower_stub
     SceDisplay_stub
     SceCtrl_stub
     SceAudio_stub
